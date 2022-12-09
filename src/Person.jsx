@@ -5,6 +5,7 @@ const Person = ({ person, rejectCandidate, undoReject, rejected = false }) => {
 	const [newNotes, setNewNotes] = useState('');
 	const { first, last } = person.name || '';
 	const { city, state } = person.location || '';
+	const imageUrl = person.picture.thumbnail || '';
 
 	const handleTextAreaChange = (e) => {
 		setNewNotes(e.target.value)
@@ -18,8 +19,13 @@ const Person = ({ person, rejectCandidate, undoReject, rejected = false }) => {
 	return (
 		<div className="person" key={first}>
 			<div className="person-info">
-				<h3>{first} {last}</h3>
-				<div className="location">{city}, {state}</div>
+				<div className="details">
+					<img src={imageUrl} alt="" />
+					<div>
+						<h3>{first} {last}</h3>
+						<div className="location">{city}, {state}</div>
+					</div>
+				</div>
 				<div className="notes">
 					{rejected 
 						? `Notes: ${person.notes}`
