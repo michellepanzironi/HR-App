@@ -13,13 +13,13 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 ## When running this app will:
 ✅ Show a new candidate to the user \
 ✅ Allow the user to reject or approve a candidate \
 ✅ Allow the user to "undo" rejecting or approving a candidate \
 ✅ Allow the user to leave a note when rejecting/approving \
-✅ Display the lists of candidates approved and rejected \
+✅ Display the lists of candidates approved and rejected 
 
 
