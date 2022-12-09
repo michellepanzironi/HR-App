@@ -8,6 +8,9 @@ Automated tests written with react-testing-library
 
 ## Instructions
 
+### `npm install`
+Uses node v 8.19.3
+
 ### `npm build`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
