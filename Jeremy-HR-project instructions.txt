@@ -1,0 +1,32 @@
+
+
+
+
+For this project, we're going to pretend to make part of an HR App!
+
+Please use react. You may use other tools (like redux) if you want.
+
+
+Your front end will fetch candidates from "the api" at https://randomuser.me/api ✅
+
+It should
+- Show a new candidate to the user ✅
+- Allow the user to reject or approve a candidate 🚧
+- Allow the user to "undo" rejecting or approving a candidate
+- Allow the user to leave a note when rejecting/approving 
+- View the list of candidates they've approved/rejected 
+
+*extra
+	set up tailwind?
+
+
+Please write automated tests. We prefer jest and the react-testing-library.
+
+Please include a *detailed* readme with *step by step* instructions for installing and running your application.
+
+Please reach out if you have any questions. Don't spend all day on this!
+
+-----
+
+README
+
