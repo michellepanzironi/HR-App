@@ -8,8 +8,12 @@ Automated tests written with react-testing-library
 
 ## Instructions
 
-To run app, use `make build`\
-To run tests, use `make test`
+### `npm build`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm test`
+Launches the test runner in the interactive watch mode.\
 
 ## When running this app will:
 ✅ Show a new candidate to the user \
