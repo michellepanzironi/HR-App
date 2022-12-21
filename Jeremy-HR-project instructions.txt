@@ -3,10 +3,11 @@ Feedback Notes:
 
 -npm install to readme ✅
 -images or initials ✅
--api call in tests
-	For testing you'll want to either mock out the call to randomuser.me, or change your components so they receive the result of that as a prop and you pass that into your tests.  As-is, when your test tries to render <App/>, it would try to call fetch, which you don't usually want to do in a unit test
-
 -persist data in refresh 
+-api call in tests
+	For testing you'll want to either mock out the call to randomuser.me, 
+	- or change your components so they receive the result of that as a prop and you pass that into your tests.  As-is, when your test tries to render <App/>, it would try to call fetch, which you don't usually want to do in a unit test
+
 -error handling 
 
 Further Improvements
